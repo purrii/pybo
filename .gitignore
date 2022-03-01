@@ -1,0 +1,5 @@
+.idea
+db.sqlite3
+*.pyc
+__pycache__
+bootstrap-4.6.1-dist.zip
