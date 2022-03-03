@@ -7,6 +7,7 @@ from django.db.models import Q, Count
 from ..models import Question
 
 def index(request):
+    3/0 #강제로 오류 발생
     # pybo에서 목록이 출력되도록
     page = request.GET.get('page','1') #페이지
     kw = request.GET.get('kw','') #검색어
