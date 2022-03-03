@@ -17,3 +17,7 @@ def signup(request):
         # get 요청일 경우 계정생성 화면 리턴
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
+
+def page_not_found(request, exception):
+    # 오류 페이지 - 404 not found
+    return render(request, 'common/404.html', {})
